@@ -8,6 +8,12 @@ export default {
     extend: {
       colors: {
         'main-yellow': '#f5b754',
+        'light' : '#222'
+      },
+      screens: {
+        'tablet': '992px',
+        'uppermid' : '1200px',
+        'desktop' : '1400px'
       },
     },
   },
