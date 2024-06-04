@@ -11,7 +11,8 @@ export default {
         'light' : '#222'
       },
       screens: {
-        'tablet': '992px',
+        'mobile' : '600px',
+        'tablet': '993px',
         'uppermid' : '1200px',
         'desktop' : '1400px'
       },
