@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         'main-yellow': '#f5b754',
-        'light' : '#222'
+        'light' : '#222',
+        'dark' : '#1b1b1b'
       },
       screens: {
         'mobile' : '600px',
