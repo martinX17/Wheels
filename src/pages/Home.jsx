@@ -4,6 +4,7 @@ import Morethan from '../Components/Morethan/Morethan.jsx'
 import Servicess from '../Components/Servicess/Servicess.jsx'
 import Type from '../Components/Type/Type.jsx'
 import BookNow from '../Components/BookNow/BookNow.jsx'
+import Process from '../Components/Process/Process.jsx'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Servicess />
       <BookNow />
       <Type />
+      <Process />
     </div>
   )
 }

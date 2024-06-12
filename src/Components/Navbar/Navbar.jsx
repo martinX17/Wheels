@@ -39,8 +39,8 @@ const Navbar = () => {
             <div className={`w-full max-[992px]:absolute max-[992px]:left-0 max-[992px]:top-16 ${drop ? 'visible' : 'collapse'} ${drop ? 'bg-light' : 'bg-inherit'} tablet:bg-inherit tablet:visible`}>
                     <div className='relative flex float-right gap-10 items-center max-[992px]:grid max-[992px]:float-left max-[992px]:pl-5 max-[992px]:py-2 '>
                         <Link to="/" className='hover:text-main-yellow cursor:pointer'>Home</Link>
-                        <Link to="/" className='hover:text-main-yellow cursor:pointer'>Bikes</Link>
-                        <Link to="/" className='hover:text-main-yellow cursor:pointer'>Services</Link>
+                        <Link to="/bikes" className='hover:text-main-yellow cursor:pointer'>Bikes</Link>
+                        <Link to="/services" className='hover:text-main-yellow cursor:pointer'>Services</Link>
                         <Link to="/about" className='hover:text-main-yellow cursor:pointer'>About</Link>
                         <Link to="/contact" className='hover:text-main-yellow cursor:pointer'>Contact</Link>
                         <div className='flex items-center max-[992px]:absolute max-[992px]:collapse '>
