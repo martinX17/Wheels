@@ -34,7 +34,7 @@ const Navbar = () => {
     <nav className={`w-full h-[100px] grid place-items-center text-white z-50 ${visible ? 'fixed' : 'relative'} ${visible ? 'bg-light' : 'bg-inherit'} `}> 
        <div className='relative flex px-5 items-center w-full tablet:max-w-[960px] uppermid:max-w[1200px] desktop:max-w-[1200px] '>
             <div>
-                <p className='text-white text-3xl font-bold'><span className='text-main-yellow'>W</span>HEELS</p>
+                <p className='text-white text-3xl font-extrabold'><span className='text-main-yellow'>W</span>HEELS</p>
             </div>
             <div className={`w-full max-[992px]:absolute max-[992px]:left-0 max-[992px]:top-16 ${drop ? 'visible' : 'collapse'} ${drop ? 'bg-light' : 'bg-inherit'} tablet:bg-inherit tablet:visible`}>
                     <div className='relative flex float-right gap-10 items-center max-[992px]:grid max-[992px]:float-left max-[992px]:pl-5 max-[992px]:py-2 '>

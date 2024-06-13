@@ -20,6 +20,7 @@ export default {
         'desktop' : '1400px'
       },
       gridTemplateColumns: {
+        '3': 'repeat(3,1fr)',
         '4': 'repeat(4,1fr)',
         '5':'repeat(5,1fr)'
       }

@@ -25,7 +25,7 @@ const data = [
     },
     {
         "image":Complete,
-        "name":"Complete Sservice"
+        "name":"Complete Service"
     }
 ]
 
@@ -33,7 +33,7 @@ const Servicess = () => {
 
   return (
     <div className='grid place-items-center justify-center mt-32'>
-        <p className='text-sm text-main-yellow tracking-[0.35rem]'>WHAT WE DO</p>
+        <p className='text-xs text-main-yellow tracking-[0.35rem]'>WHAT WE DO</p>
         <p className='text-white text-4xl font-bold my-3'>Other <span className='text-main-yellow'>Services</span></p>
 
         <div className='bg-cover  bg-center mt-8 min-[992px]:w-[960px] min-[1200px]:w-[1200px]  min-[500px]:w-[480px] min-[700px]:w-[680px] min-[900px]:w-[890px] min-[200px]:w-[180px] min-[300px]:w-[280px] min-[400px]:w-[380px]'>

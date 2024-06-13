@@ -49,7 +49,7 @@ const Header = () => {
     <div className='relative flex items-center justify-center text-white relative h-screen w-screen bg-cover bg-center z-10 transition-all transform duration-500' style={{backgroundImage:`url(${data[index].image})`}}>
         <div className='tablet:max-w-[960px] uppermid:max-w[1200px] desktop:max-w-[1190px] w-full px-10'>
             <div className='grid w-full'>
-                <p className='text-main-yellow tracking-[0.35rem]'>* PREMIUM</p>
+                <p className='text-main-yellow tracking-[0.35rem] text-xs'>* PREMIUM</p>
                 <p className='text-8xl font-extrabold'>{data[index].company}</p>
                 <p className='text-lg font-bold mt-2'>{data[index].model}</p>
                 <div className='flex mt-4 max-[450px]:grid '>

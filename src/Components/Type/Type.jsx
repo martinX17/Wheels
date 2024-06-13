@@ -35,7 +35,7 @@ const Type = () => {
             <div className='tablet:max-w-[960px] uppermid:max-w[1200px] desktop:max-w-[1190px] w-full h-[50px] mb-32'>
                 <div className='border-r h-full w-1/2 border-main-yellow' />
             </div>
-            <p className='text-sm text-main-yellow tracking-[0.35rem]'>CATEGORIES</p>
+            <p className='text-xs text-main-yellow tracking-[0.35rem]'>CATEGORIES</p>
             <p className='text-white text-4xl font-bold my-3'>Bike <span className='text-main-yellow'>Types</span></p>
             
             <div className='relative bg-cover bg-center mt-8 min-[992px]:w-[960px] min-[1200px]:w-[1200px]  min-[500px]:w-[480px] min-[700px]:w-[680px] min-[900px]:w-[890px] min-[200px]:w-[180px] min-[300px]:w-[280px] min-[400px]:w-[380px]'>
