@@ -26,15 +26,15 @@ const Footer = () => {
 
   return (
     <div className='w-full'>
-        <div className='w-full px-3 grid place-items-center bg-light h-[130px]'>
-            <div className='w-full px-3 tablet:max-w-[960px] uppermid:max-w[1200px] desktop:max-w-[1190px] flex items-center justify-start gap-[90px] overflow-x-auto no-scrollbar'>
+        <div className='w-full px-5 grid place-items-center bg-light h-[130px]'>
+            <div className='w-full px-7 tablet:max-w-[960px] uppermid:max-w-[1200px] desktop:max-w-[1200px] flex items-center justify-start gap-[90px] overflow-x-auto no-scrollbar'>
                 {data.map((item) => (
                     <img src={item} className='h-[80px]' />
                 ))}
             </div>
         </div>
         <div className='mt-28 w-full grid place-items-center'>
-            <div className='w-fit px-5 grid place-items-center justify-start mobile:w-[590px] lowermid:w-[760px] tablet:w-[960px] desktop:w-[1190px] mobile:h-[100px] mobile:flex items-center mobile:justify-center h-[400px] border border-light rounded-3xl'>
+            <div className='w-fit px-5 grid place-items-center justify-start mobile:w-[590px] lowermid:w-[760px] tablet:w-[960px] uppermid:max-w-[1200px] desktop:w-[1200px] mobile:h-[100px] mobile:flex items-center mobile:justify-center h-[400px] border border-light rounded-3xl'>
                 <div className='px-1 flex items-center justify-satrt gap-3 w-full mobile:w-1/3 mobile:justify-center mobile:border-r border-light'>
                     <div className='p-4 rounded-full bg-main-yellow flex items-center justify-center'>
                         <FiPhoneCall className='text-2xl text-light' />
@@ -64,8 +64,8 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className='mt-32 mb-32 w-full grid place-items-center px-5'>
-            <div className='w-full px-5 grid place-items-start gap-20 mobile:w-[590px] lowermid:w-[760px] tablet:w-[960px] desktop:w-[1190px] lowermid:flex lowermid:items-top lowermid:justify-center lowermid:gap-3'>
+        <div className='w-full mt-32 mb-32 w-full grid place-items-center px-5'>
+            <div className='w-full px-5 grid place-items-start gap-20 mobile:w-[590px] lowermid:w-[760px] tablet:w-[960px] uppermid:max-w-[1200px] desktop:max-w-[1200px] lowermid:flex lowermid:items-top lowermid:justify-center lowermid:gap-3'>
                 <div className='lowermid:w-full'>
                     <p className='text-3xl font-extrabold text-white'><span className='text-main-yellow'>W</span>HEELS</p>
                     <p className='text-sm mt-4 mb-5'>Since its inception in 2014, Wheels has quickly emerged as India's most popular omnichannel automobile destination with many happy customers across the country.</p>

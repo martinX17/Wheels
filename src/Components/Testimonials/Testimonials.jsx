@@ -22,7 +22,7 @@ const data = [
 
 const Testimonials = () => {
   return (
-    <div className='grid place-items-center justify-center gap-7 mt-32 mb-32 w-full lowest:max-w-[340px] mobile:max-w-[590px] lowermid:max-w-[760px] tablet:max-w-[960px] uppermid:max-w[1200px] desktop:max-w-[1190px]'>
+    <div className='grid place-items-center px-5 justify-center gap-7 mt-32 mb-32 w-full lowest:max-w-[340px] mobile:max-w-[590px] lowermid:max-w-[760px] tablet:max-w-[960px] uppermid:max-w-[1200px] desktop:max-w-[1200px]'>
         <div className='grid place-items-center gap-1 w-full'>
             <p className='text-xs text-main-yellow tracking-[0.35rem]'>TESTIMONIALS</p>
             <p className='text-4xl font-extrabold text-white'>What Clients Say</p>

@@ -6,7 +6,7 @@ import ImageMore from '../../assets/morethan.jpg'
 const Morethan = () => {
   return (
     <div className='grid place-items-center justify-center'>
-        <div className='relative grid place-items-center justify-center tablet:max-w-[960px] uppermid:max-w[1200px] desktop:max-w-[1190px] w-full my-28 tablet:flex tablet:items-center tablet:justify-start '>
+        <div className='relative grid place-items-center justify-center tablet:max-w-[960px] uppermid:max-w-[1200px] desktop:max-w-[1200px] w-full my-28 tablet:flex tablet:items-center tablet:justify-start '>
             <div className='p-10 w-full min-[450px]:w-3/4 tablet:w-1/2'>
                 <p className='text-xs text-main-yellow tracking-[0.35rem]'>WHEELS</p>
                 <p className='text-white text-4xl grid font-bold my-3'>We Are More Than <span className='text-main-yellow'>A Car Rental Company</span> </p>
