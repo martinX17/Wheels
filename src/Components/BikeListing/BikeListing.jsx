@@ -13,10 +13,37 @@ const BikeListing = () => {
 
     const [list,setList] = useState(Data);
 
-    // useEffect(() => {
-    //     const update = [];
-        
-    // },[selectedtypetype]);
+
+    const changeList = () =>{
+        let tempList = [];
+
+        if(selectedtype == "" && selectedCompany==""){
+            tempList = Data;
+        }else if(selectedCompany==""){
+            for(let i=0 ; i<Data.length; i++){
+                if(Data[i].type == selectedtype){
+                    tempList.push(Data[i]);
+                }
+            }
+        }else if(selectedtype==""){
+            for(let i=0 ; i<Data.length; i++){
+                if(Data[i].company == selectedCompany){
+                    tempList.push(Data[i]);
+                }
+            }
+        }else{
+            for(let i=0 ; i<Data.length; i++){
+                if(Data[i].company == selectedCompany && Data[i].type == selectedtype){
+                    tempList.push(Data[i]);
+                }
+            }
+        }
+        setList(tempList);
+    }
+
+    useEffect(() => {
+        changeList();
+    },[selectedtype,selectedCompany]);
 
     const handleTypeChange = (e) => {
         setSelectedType(e.target.value);
@@ -71,11 +98,14 @@ const BikeListing = () => {
                 </div>
             </div>
         </div>
-        <div className='w-full mt-24 mb-24'>
-            <div className='w-full grid place-items-center tablet:grid-cols-2 tablet:gap-5'>
+        <div className='w-full mt-24 relative'>
+            <div className='w-full grid place-items-center tablet:grid-cols-2 tablet:gap-5 gap-5'>
                 {list.map((data) => (
-                    <BikeListingItem item={data} />
+                    <BikeListingItem item={data} key={data.image} />
                 ))}
+            </div>
+            <div className={`absolute inset-x-0 top-0 flex items-center justify-center ${list.length != 0 ? "collapse" : "visible"}`}>
+                <p className='text-sm'>* Bikes not available for selected Type and Company *</p>
             </div>
         </div>
       </div>

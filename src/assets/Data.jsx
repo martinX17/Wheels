@@ -72,7 +72,7 @@ const data = [
     },
     {
         "image" : B5,
-        "type" : "Sports",
+        "type" : "Cruiser",
         "company" : "Triumph",
         "model" : "Bonneville Bobber",
         "year" : 2018,

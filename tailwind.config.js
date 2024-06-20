@@ -9,6 +9,7 @@ export default {
       colors: {
         'main-yellow': '#f5b754',
         'light' : '#222',
+        'lighter' : '#ffffff08',
         'dark' : '#1b1b1b'
       },
       screens: {
