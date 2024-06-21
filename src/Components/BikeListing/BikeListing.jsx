@@ -54,7 +54,7 @@ const BikeListing = () => {
     }
     
   return (
-    <div className='w-full px-5 grid place-items-center mobile:max-w-[550px] lowermid:max-w-[750px] tablet:max-w-[960px] uppermid:max-w-[1200px] desktop:max-w-[1200px]'>
+    <div className='w-full px-5 grid place-items-center mobile:max-w-[550px] lowermid:max-w-[750px] tablet:max-w-[960px] uppermid:max-w-[1200px] desktop:max-w-[1200px] mb-28'>
       <div className='w-full grid tablet:flex tablet:gap-5'>
         <div className='w-full tablet:w-5/12'>
             <div className='w-full relative'>

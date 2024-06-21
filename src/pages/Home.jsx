@@ -8,6 +8,7 @@ import Process from '../Components/Process/Process.jsx'
 import Promo from '../Components/Promo/Promo.jsx'
 import Testimonials from '../Components/Testimonials/Testimonials.jsx'
 import Footer from '../Components/Footer/Footer.jsx'
+import Interested from '../Components/Interested/Interested.jsx'
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <Process />
       <Promo />
       <Testimonials />
+      <Interested />
       <Footer />
     </div>
   )

@@ -32,9 +32,9 @@ const Morethan = () => {
                 </div>
             </div>
         </div>
-        <div className='tablet:max-w-[960px] uppermid:max-w[1200px] desktop:max-w-[1190px] w-full h-[50px]'>
+        {/* <div className='tablet:max-w-[960px] uppermid:max-w[1200px] desktop:max-w-[1190px] w-full h-[50px]'>
             <div className='border-r h-full w-1/2 border-main-yellow' />
-        </div>
+        </div> */}
     </div>
   )
 }

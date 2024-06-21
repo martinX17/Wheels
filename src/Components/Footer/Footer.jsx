@@ -25,7 +25,7 @@ const Footer = () => {
     }
 
   return (
-    <div className='w-full mt-32'>
+    <div className='w-full'>
         <div className='w-full px-5 grid place-items-center bg-light h-[130px]'>
             <div className='w-full px-7 tablet:max-w-[960px] uppermid:max-w-[1200px] desktop:max-w-[1200px] flex items-center justify-start gap-[90px] overflow-x-auto no-scrollbar'>
                 {data.map((item) => (
