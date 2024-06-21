@@ -10,10 +10,12 @@ export default {
         'main-yellow': '#f5b754',
         'light' : '#222',
         'lighter' : '#ffffff08',
-        'dark' : '#1b1b1b'
+        'dark' : '#1b1b1b',
+        'detail' : '#00000033'
       },
       screens: {
         'lowest':'350px',
+        'contact' : '570px',
         'mobile' : '600px',
         'lowermid':'768px',
         'tablet': '993px',

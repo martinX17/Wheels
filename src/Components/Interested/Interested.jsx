@@ -1,11 +1,11 @@
 import React from 'react'
-import Image from '../../assets/interested.jpeg'
+import Image from '../../assets/interested.jpg'
 import { FaWhatsapp } from "react-icons/fa";
 import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Interested = () => {
   return (
-    <div className='w-full h-[350px] flex items-center justify-center bg-cover bg-center' style={{backgroundImage : `url(${Image})`}}>
+    <div className='w-full h-[450px] flex items-center justify-center bg-cover bg-center' style={{backgroundImage : `url(${Image})`}}>
       <div className='w-full grid place-items-center gap-7'>
         <div className='w-full grid place-items-center gap-2 text-white' >
             <p className='text-xs text-main-yellow tracking-[0.35rem]'>BUY YOUR BIKE</p>
