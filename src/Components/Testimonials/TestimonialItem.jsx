@@ -4,7 +4,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 
 const TestimonialItem = ({name,image}) => {
   return (
-    <div className='grid w-[200px] bg-light rounded-tl-3xl rounded-br-3xl lowest:w-[340px] mobile:w-[275px] lowermid:w-[360px] tablet:w-full'>
+    <div className='grid w-[245px] bg-light rounded-tl-3xl rounded-br-3xl lowest:w-[290px] mobile:w-[260px] lowermid:w-[340px] tablet:w-full'>
       <div className='flex relative items-center'>
         <div className='w-full py-5' />
         <div className='relative flex gap-1 text-sm py-5 px-3 bg-dark rounded-bl-3xl text-main-yellow'>

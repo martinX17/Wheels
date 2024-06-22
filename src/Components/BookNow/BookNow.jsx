@@ -72,7 +72,7 @@ const BookNow = () => {
     }
 
   return (
-    <div className='mt-36 h-[650px] w-full lowermid:h-[450px] tablet:h-[350px] flex items-center justify-center flex-col bg-cover bg-center' style={{backgroundImage : `url(${BuyNow})`}}>
+    <div className='mt-36 h-[650px] w-full lowermid:h-[450px] tablet:h-[450px] flex items-center justify-center flex-col bg-cover bg-center' style={{backgroundImage : `url(${BuyNow})`}}>
         <div className='bg-dark  grid place-items-center justify-center rounded-3xl h-[500px] w-[200px] lowest:w-[280px]   lowermid:grid-cols-2 lowermid:h-[300px] lowermid:w-[500px] tablet:grid-cols-5 tablet:w-[955px] tablet:h-[80px] tablet:rounded-full mx-10 tablet:max-w-[960px] uppermid:max-w[1200px] desktop:max-w-[1200px]'>
             <div className='flex items-center'>
                 <div className='relative focus:border-none'>

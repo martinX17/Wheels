@@ -30,19 +30,23 @@ const Navbar = () => {
         setDrop(!drop)
     }
 
+    const handleVisibility = () => {
+        setDrop(false)
+    }
+
   return (
     <nav className={`w-full h-[100px] grid place-items-center text-white z-50 ${visible ? 'fixed' : 'relative'} ${visible ? 'bg-light' : 'bg-inherit'} `}> 
        <div className='relative flex px-5 items-center w-full tablet:max-w-[960px] uppermid:max-w-[1200px] desktop:max-w-[1200px] '>
             <div>
-                <p className='text-white text-3xl font-extrabold'><span className='text-main-yellow'>W</span>HEELS</p>
+                <Link to="/" onClick={handleVisibility} className='text-white text-3xl font-extrabold tracking-wide'><span className='text-main-yellow'>W</span>HEELS</Link>
             </div>
-            <div className={`w-full max-[992px]:absolute max-[992px]:left-0 max-[992px]:top-16 ${drop ? 'visible' : 'collapse'} ${drop ? 'bg-light' : 'bg-inherit'} tablet:bg-inherit tablet:visible`}>
+            <div id='my-navbar' className={`w-full max-[992px]:absolute max-[992px]:left-0 max-[992px]:top-16 ${drop ? 'visible' : 'collapse'} ${drop ? 'bg-light' : 'bg-inherit'} tablet:bg-inherit tablet:visible`}>
                     <div className='relative flex float-right gap-10 items-center max-[992px]:grid max-[992px]:float-left max-[992px]:pl-5 max-[992px]:py-2 '>
-                        <Link to="/" className='hover:text-main-yellow cursor:pointer'>Home</Link>
-                        <Link to="/bikes" className='hover:text-main-yellow cursor:pointer'>Bikes</Link>
-                        <Link to="/services" className='hover:text-main-yellow cursor:pointer'>Services</Link>
-                        <Link to="/about" className='hover:text-main-yellow cursor:pointer'>About</Link>
-                        <Link to="/contact" className='hover:text-main-yellow cursor:pointer'>Contact</Link>
+                        <Link to="/" onClick={handleVisibility} className='hover:text-main-yellow cursor:pointer tracking-wide'>Home</Link>
+                        <Link to="/bikes" onClick={handleVisibility} className='hover:text-main-yellow cursor:pointer tracking-wide'>Bikes</Link>
+                        <Link to="/services" onClick={handleVisibility} className='hover:text-main-yellow cursor:pointer tracking-wide'>Services</Link>
+                        <Link to="/about" onClick={handleVisibility} className='hover:text-main-yellow cursor:pointer tracking-wide'>About</Link>
+                        <Link to="/contact" onClick={handleVisibility} className='hover:text-main-yellow cursor:pointer tracking-wide'>Contact</Link>
                         <div className='flex items-center max-[992px]:absolute max-[992px]:collapse '>
                             <div className='text-2xl border border-main-yellow p-4 rounded-full'>
                                 <FiPhoneCall />

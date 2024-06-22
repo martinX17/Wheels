@@ -1,17 +1,18 @@
 import React from "react"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home  from "./pages/Home";
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Services from "./pages/Services";
 import Bikes from './pages/Bikes'
 import Navbar from "./Components/Navbar/Navbar";
+import ScrollToTop from "./Components/ScrollToTop.jsx/ScrollToTop";
 
 function App() {
 
   return (
   <div className="relative">
-    <Router>
+    <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
@@ -20,7 +21,6 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/bikes" element={<Bikes />} />
       </Routes>
-    </Router>
   </div>
 )
 }

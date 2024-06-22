@@ -12,7 +12,7 @@ import Interested from '../Components/Interested/Interested.jsx'
 
 const Home = () => {
   return (
-    <div className='absolute top-0 left-0 grid place-items-center'>
+    <div className='w-full absolute top-0 left-0 grid place-items-center'>
       <Header />
       <Morethan />
       <Servicess />
