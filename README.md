@@ -1,8 +1,32 @@
-# React + Vite
+# WHEELS - Pre-Owned Motorcycle Selling Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React and Tailwind CSS-based website for buying and selling pre-owned motorcycles.
 
-Currently, two official plugins are available:
+## Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Homepage Screenshot](path-to-screenshot.png)
+
+## Features
+
+- Motorcycle listings with detailed descriptions
+- Search and filter functionality
+- User reviews and ratings
+
+## Tech Stack
+
+- **Frontend:** React, Tailwind CSS
+
+## Installation and Setup
+
+### Prerequisites
+
+- Git
+- Node.js
+- npm
+
+### Installation
+
+```sh
+git clone https://github.com/martinX17/Wheels.git
+cd Wheels
+npm install
