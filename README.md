@@ -4,7 +4,7 @@ A React and Tailwind CSS-based website for buying and selling pre-owned motorcyc
 
 ## Screenshots
 
-![Homepage Screenshot](path-to-screenshot.png)
+![Homepage Screenshot](./src/assets/homepagescreen.png.png)
 
 ## Features
 
